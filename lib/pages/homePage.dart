@@ -151,6 +151,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       rightPage: userPage,
       enableGesture: tabBarType == TikTokPageTag.home,
       // onPullDownRefresh: _fetchData,
+      // 中间视图
       page: Stack(
         // index: currentPage == null ? 0 : 1,
         children: <Widget>[
